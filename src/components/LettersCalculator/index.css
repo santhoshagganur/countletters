@@ -1,0 +1,51 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.suggestion {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.input-element {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 30vw;
+  height: 30px;
+}
+
+.count {
+  color: #1d976c;
+  font-family: Roboto;
+  font-size: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.image {
+  height: 500px;
+  background-size: cover;
+}
